@@ -35,6 +35,7 @@
 ## Step-03: Install Helm Chart
 
   * Installs the Helm Chart
+  
         # Update Helm Repo
         helm repo update  # Make sure we get the latest list of charts
 
@@ -51,10 +52,10 @@
 
         # List Helm Releases (YAML Output)
         helm list --output=yaml
-    
+
         # List Helm Releases (JSON Output)
         helm list --output=json
-    
+
         # List Helm Releases with namespace flag
         helm list --namespace=default
         helm list -n default
